@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+    
+body {
+    background-color: #0B2429;
+    color: #998235;
+}
+h3 {
+    font-size: 3rem;
+    font-family: 'Poppins';
+    border: 2px inset #998235; 
+    border-radius: 50% 0;
+    padding: 2rem 0 1rem 1.5rem;
+    transform: skew(10deg, 10deg);
+    box-shadow: 10px 10px #1a43413b;
+}
+h1 {
+    font-size: 6.5em;
+    margin: 0 auto;
+    font-family:'Grenze Gotisch';
+    font-weight: 900;
+    border: 2px dotted #998235; 
+    border-radius: 30% 0;
+    background-color: #1a43415a;
+    transform: skew(-10deg, -10deg);
+    padding: 1rem 0.5rem;
+    text-shadow: 15px 15px #1a4341;
+}
+
+.text {
+    display: flex; 
+    flex-wrap: wrap;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.font{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 5vh;
+    color: #F3AC3C;
+    margin: 0 auto;
+}
+.fa-cake-candles{
+    color: #F3AC3C;
+}
+.happy-birthday{
+    width: 100%;
+    height: 30vh;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(./images/bday2.jpeg);
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 50vh;
+    width: 95%;
+    overflow: hidden;
+    position: relative;
+}
+.img-page {
+    padding: 5% 0;
+}
+.img-line{
+    width: 90%;
+    height: 40%;
+    border-radius: 50% 0 50% 0;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    transform: rotate(40deg);
+    border: 1px double #998235;
+}
+.img-line-1{
+    width: 90%;
+    height: 40%;
+    border-radius: 50% 0;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    transform: skew(40deg);
+    border: 1px double #998235;
+}
+.img-line-2{
+    width: 90%;
+    height: 40%;
+    border-radius: 50% 0;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    transform: matrix3d(40deg);
+    border: 1px double #998235;
+}
+.img-line-3{
+    width: 90%;
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    transform: skew(-20deg);
+    border: 1px double #998235;
+}
+.img-1,.img-2,.img-3,.img-4,.img-5,.img-6{
+    width: 70%;
+    height: 80%;
+    background: url('./images/img.jpeg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    /* position: relative; */
+    z-index: 999;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+.img-1:hover,.img-2:hover,.img-3:hover,.img-4:hover,.img-5:hover,.img-6:hover{
+    background-size: contain;
+}
+footer{
+    background-color: #1a4341;
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1rem;
+}
