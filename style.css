@@ -64,7 +64,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 10% auto;
     height: 50vh;
     width: 95%;
     overflow: hidden;
@@ -113,17 +113,40 @@ h1 {
     transform: skew(-20deg);
     border: 1px double #998235;
 }
-.img-1,.img-2,.img-3,.img-4,.img-5,.img-6{
+/* .img-1,.img-2,.img-3,.img-4,.img-5,.img-6{
     width: 70%;
     height: 80%;
-    background: url('./images/img.jpeg');
-    background-size: cover;
-    /* background-attachment: fixed; */
+    /* background-position: bottom; 
+    background-size: contain;
+    /* background-attachment: fixed; 
     background-position: center;
-    /* position: relative; */
+    /* position: relative; 
     z-index: 999;
     margin: 0;
     background-repeat: no-repeat;
+} */
+img{
+    height: 100%;
+    width: 50%;
+    z-index: 999;
+}
+.img-1{
+    background: url('./images/Img-1.jpg');
+}
+.img-2{
+    background: url('./images/img-2.jpg');
+}
+.img-3{
+    background: url('./images/img-3.jpg');
+}
+.img-4{
+    background: url('./images/img-4.jpg');
+}
+.img-5{
+    background: url('./images/img-5.jpg');
+}
+.img-6{
+    background: url('./images/img-6.jpg');
 }
 .img-1:hover,.img-2:hover,.img-3:hover,.img-4:hover,.img-5:hover,.img-6:hover{
     background-size: contain;
