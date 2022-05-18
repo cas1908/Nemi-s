@@ -11,25 +11,45 @@ body {
     color: #998235;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Poppins';
     border: 2px inset #998235; 
     border-radius: 50% 0;
+    width: 90%;
+    margin: 0 auto;
     padding: 2rem 0 1rem 1.5rem;
     transform: skew(10deg, 10deg);
     box-shadow: 10px 10px #1a43413b;
 }
 h1 {
-    font-size: 6.5em;
+    font-size: 2rem;
     margin: 0 auto;
-    font-family:'Grenze Gotisch';
-    font-weight: 900;
+    font-family: 'Poppins';
+    font-weight: 600;
     border: 2px dotted #998235; 
-    border-radius: 30% 0;
-    background-color: #1a43415a;
+    border-radius: 20% 0;
+    background-color: #0B2429;
     transform: skew(-10deg, -10deg);
     padding: 1rem 0.5rem;
-    text-shadow: 15px 15px #1a4341;
+    text-transform: capitalize;
+    text-shadow: 10px 30px #1a4341;
+    box-shadow: 10px 10px #1a43413b;
+}
+@media screen and (min-width: 375px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 425px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
 }
 
 .text {
@@ -44,7 +64,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 95%;
+    width: 100%;
     height: 5vh;
     color: #F3AC3C;
     margin: 0 auto;
@@ -66,14 +86,14 @@ h1 {
     align-items: center;
     margin: 10% auto;
     height: 50vh;
-    width: 95%;
+    width: 90%;
     overflow: hidden;
     position: relative;
 }
 .img-page {
     padding: 5% 0;
 }
-.img-line{
+/* .img-line{
     width: 90%;
     height: 40%;
     border-radius: 50% 0 50% 0;
@@ -112,7 +132,7 @@ h1 {
     left: 5%;
     transform: skew(-20deg);
     border: 1px double #998235;
-}
+} */
 /* .img-1,.img-2,.img-3,.img-4,.img-5,.img-6{
     width: 70%;
     height: 80%;
@@ -127,14 +147,14 @@ h1 {
 } */
 img{
     height: 100%;
-    width: 50%;
+    width: 80%;
     z-index: 999;
 }
 .img-1{
-    background: url('./images/Img-1.jpg');
+    background: url('./mrs/0.jpg');
 }
 .img-2{
-    background: url('./images/img-2.jpg');
+    background: url('./Mrs\ Vivian/1.jpg');
 }
 .img-3{
     background: url('./images/img-3.jpg');
@@ -154,6 +174,6 @@ img{
 footer{
     background-color: #1a4341;
     padding: 1rem;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1rem;
 }
